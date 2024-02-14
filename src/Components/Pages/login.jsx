@@ -38,12 +38,12 @@ function Login() {
         localStorage.setItem("token", res.data.token);
         localStorage.setItem("userInfo", JSON.stringify(userInfo));
         if (res.data.user.role === "admin") {
-          window.location.href = `http://localhost:5173/?token=${res.data.token}&role=${role}&email=${email}`;
+          window.location.href = `https://uhfe-1.vercel.app/?token=${res.data.token}&role=${role}&email=${email}`;
         }
         if (res.data.user.role === "user") {
           // to be done when role is user
 
-          window.location.href = `http://localhost:5175/?token=${res.data.token}&role=${role}&email=${email}`;
+          window.location.href = `https://uhfe-2.vercel.app/?token=${res.data.token}&role=${role}&email=${email}`;
         }
       })
       .catch((error) => {
