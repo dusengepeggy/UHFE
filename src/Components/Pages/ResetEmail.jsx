@@ -14,7 +14,7 @@ function ResetEmail() {
   const handleReset = async () => {
     setLoading(true);
     await axios
-      .post("http://localhost:4000/api/UH/v1/user/auth/forgotpassword", {
+      .post("https://umudugudu-hub.onrender.com/api/UH/v1/user/auth/forgotpassword", {
         email,
       })
       .then((res) => {

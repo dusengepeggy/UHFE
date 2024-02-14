@@ -24,7 +24,7 @@ function NewPassword() {
 
     if (password === cPassword) {
       await axios
-        .put("http://localhost:4000/api/UH/v1/user/auth/updatepassword", {
+        .put("https://umudugudu-hub.onrender.com/api/UH/v1/user/auth/updatepassword", {
           email,
           newPassword:password,
           confirmPassword:cPassword

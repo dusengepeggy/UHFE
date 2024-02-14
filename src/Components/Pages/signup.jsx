@@ -21,7 +21,7 @@ function Signup() {
         password,
       };
       await axios
-        .put("http://localhost:4000/api/UH/v1/user/auth/signup", data)
+        .put("https://umudugudu-hub.onrender.com/api/UH/v1/user/auth/signup", data)
         .then((res) => {
           console.log("Signup response", res);
           navigate("/login");
