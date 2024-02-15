@@ -17,7 +17,7 @@ function App() {
     <div><img className="logo" src="/images/logo2.png" alt="" /></div>
     <div><img className="motto" src="/images/motto.png" alt="" /></div>
     </div>
-    <h1 data-aos="fade-down" className="h1">Welcome to Village connect </h1>
+    <h1 data-aos="fade-down" className="h1">Welcome to Village Connect System </h1>
     <h2 data-aos="fade-up" className="h2">Our system goal is help you to <br /> share information
         faster and easier!</h2>
        <h2 data-aos="fade-up" className="h2">Sign Up to continue with us or login <br /> if you already have an account</h2>
